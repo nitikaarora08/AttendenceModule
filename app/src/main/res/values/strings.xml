@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ModernTrade</string>
+
+    <string name="please_enter_the_current_pin_code">Please Enter the OTP</string>
+    <string name="wrong_pincode_txt">Wrong PIN Code</string>
+
+    <string name="no_internet">Please cehck internet connectivity.</string>
+    <color name="text_hint">#bbbbbb</color>
+    <string name="no_file_chosen">Please take image before uploading.</string>
+
+</resources>

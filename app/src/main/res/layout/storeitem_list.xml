@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView_backk"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/back" />
+
+
+            <ImageView
+                android:id="@+id/imageView_back"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="51dp"
+                android:layout_marginLeft="51dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/logo_login" />
+
+            <TextView
+                android:id="@+id/textView_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView"
+              android:layout_marginLeft="155dp"
+                android:layout_marginTop="17dp"
+
+                android:text="Rakesh Yadav"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/employee_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_name"
+
+                android:text="(dddddddddd)"
+                android:layout_marginLeft="165dp"
+                android:textColor="#000"
+                android:textSize="17dp"/>
+
+
+            <ImageView
+                android:id="@+id/image_save"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/save"
+                android:layout_marginTop="20dp"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginTop="70dp"
+                android:background="#000">
+            </View>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Items"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="10dp"
+                    android:text="M B Q"
+                    android:textColor="#000"
+                    android:textSize="25dp"
+                    android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Stock"
+                    android:textColor="#000"
+                    android:textSize="25dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    </ListView>
+</LinearLayout>

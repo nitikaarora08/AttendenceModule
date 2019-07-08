@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+       <LinearLayout
+           android:id="@+id/aaa"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <LinearLayout
+               android:layout_width="67dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               >
+
+               <TextView
+                   android:id="@+id/items"
+                   android:layout_marginTop="15dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="italic"
+                   android:text="aaaaaagggggggg"
+                   android:textSize="20dp"
+                   android:textColor="#000"
+
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="3dp"
+               android:layout_height="47dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_weight="1"
+               android:background="@drawable/mbqrounded_edittext">
+
+               <TextView
+                   android:id="@+id/item_mbq"
+
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:background="@android:color/transparent"
+                   android:gravity="left"
+                   android:text="sssssss"
+                   android:textColor="#000"
+                   android:textSize="20dp"
+                   android:textStyle="italic" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="3dp"
+               android:layout_weight="1"
+               android:layout_height="50dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="11dp"
+               android:background="@drawable/whiterounded_edittext"
+               android:layout_marginBottom="10dp"
+               android:orientation="vertical"
+               android:layout_marginRight="10dp">
+
+               <EditText
+                   android:id="@+id/itemquantity"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:background="@android:color/transparent"
+                   android:gravity="left"
+                   android:inputType="number"
+                   />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
